@@ -44,6 +44,28 @@ python motion_planning.py
 
 You should see the quad fly a jerky path of waypoints to the northeast for about 10 m then land.  What's going on here? Your first task in this project is to explain what's different about `motion_planning.py` from the `backyard_flyer_solution.py` script, and how the functions provided in `planning_utils.py` work. 
 
+Here is more Explaination about the functionality of what's provided in motion_planning.py and planning_utils.py
+
+motionplanning.py
+In addition to MANUAL, ARMING, DISARMING, TAKEOFF, LANDING, and WAYPOINT, motion_planning also has a PLANNING state. plan_path function contains the logic to impement the planning.
+
+planning_utils.py
+create_grid(data, drone_altitude, safety_distance)
+Returns a grid representation of a 2D configuration space based on given obstacle data, drone altitude and safety distance arguments
+
+Action(Enum)
+ An action is represented by a 3 element tuple.
+ The first 2 values are the delta of the action relative to the current grid position. The third and final value is the cost of performing the action.
+
+valid_actions(grid, current_node)
+Returns a list of valid actions given a grid and current node.
+
+a_star(grid, h, start, goal)
+implements the eponymous pathfinding algorithm
+
+heuristic(position, goal_position)
+uses Euclidean / Frobenius norm , These scripts contain a basic planning implementation.
+
 ### Step 7: Write your planner
 
 Your planning algorithm is going to look something like the following:
