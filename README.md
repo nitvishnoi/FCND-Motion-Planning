@@ -96,7 +96,7 @@ python motion_planning.py
 
 You should see the quad takeoff and follow a zigzag series of waypoints for about 10 m then land.
 
-![Quad Image](./misc/Capture.png)
+![3DImage](./misc/Capture.PNG)
 
 
 
