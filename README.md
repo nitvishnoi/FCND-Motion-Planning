@@ -85,4 +85,20 @@ This may not be completely intuitive, but this will yield a yaw angle that is po
 Put all of these together and make up your own crazy paths to fly! Can you fly a double helix?? 
 ![Double Helix](./misc/double_helix.gif)
 
+
+
+# 3D Motion Planning in Downtown San Francisco
+If that all works, well done! All that's left is to build your 3D Motion Planning solution. Check out the README in the project repository for instructions on how to complete the project, and the project rubric for details on what you need for a passing submission.
+
+We have provided some starter code in motion_planning.py and planning_utils.py for you to get comfortable with how things will work for this project. First off, you can just run this code and see what happens. Hit shift-r (sometimes twice) to reset the simulator. Then run:
+
+python motion_planning.py
+
+You should see the quad takeoff and follow a zigzag series of waypoints for about 10 m then land.
+
+![Quad Image](./misc/Capture.png)
+
+
+
+
 Ok flying a double helix might seem like a silly idea, but imagine you are an autonomous first responder vehicle. You need to first fly to a particular building or location, then fly a reconnaissance pattern to survey the scene! Give it a try!
