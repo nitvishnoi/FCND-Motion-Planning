@@ -130,8 +130,6 @@ Some of these steps are already implemented for you and some you need to modify 
    ##### 7.6.1.3  : Cull waypoints - To eliminate unnecessary waypoints in path
    
    By the help of the Collinearty Check Method [Lecter_6], unnecessary waypoints in path is to eliminate. 
-   Breifly, three points p_1, p_2p,p_3 to be collinear, the determinant of the matrix that includes the coordinates 
-   of these three points as rows must be equal to zero in three dimension ( necessary but not sufficient) Detail. 
    However in two dimension,z coordinate simply set to 1 and the determinant being equal to zero indicates that the area of the triangle is zero.
    It is a sufficient condition for collinearity.
    
