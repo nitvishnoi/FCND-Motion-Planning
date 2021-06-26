@@ -79,26 +79,29 @@ Your planning algorithm is going to look something like the following:
 
 Some of these steps are already implemented for you and some you need to modify or implement yourself.  See the [rubric](https://review.udacity.com/#!/rubrics/1534/view) for specifics on what you need to modify or implement.
 
-# 7.1 TODO 1 & 2
-  ## TODO: read lat0, lon0 from colliders into floating point values
+# 7.1 Read lat0 from colliders in to floating point value and set home position
 
+  ## TODO: read lat0, lon0 from colliders into floating point values
   ## TODO: set home position to (lon0, lat0, 0)
   
   [![TODO1 &2 ](misc/TODO_1_2.PNG)]
   
-# 7.2 TODO 3 & 4
+# 7.2 Retrieve current global position and convert it to current local position
   ## TODO: retrieve current global position
   ## TODO: convert to current local position using global_to_local()
   
   [![TODO3 &4 ](misc/TODO_3_4.PNG)]
 
-# 7.3 TODO 5:
+# 7.3 Setting grid start position and add flexibility to start location
   ## TODO: convert start position to current position rather than map center
   
   [![TODO_5 ](misc/TODO_5.PNG)]
   
-# 7.5: TODO 6: adapt to set goal as latitude / longitude position and convert
+# 7.5: Set goal as some arbitrary position on the grid
+ 
+  ### TODO 6: adapt to set goal as latitude / longitude position and convert
 
+   This step add flexibility to the desired goal location.Should be able to choose any (lat,lon) with in the map
   [![TODO_6 ](misc/TODO_5.PNG)]
   
 # 7.6: TODO 7 & 8: 
