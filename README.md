@@ -104,7 +104,7 @@ Some of these steps are already implemented for you and some you need to modify 
    This step add flexibility to the desired goal location.Should be able to choose any (lat,lon) with in the map
   [![TODO_6 ](misc/TODO_5.PNG)]
   
-# 7.6: TODO 7 & 8: 
+# 7.6: Add Diagnol motions 
    
    ### Run A* to find a path from start to goal
    ### TODO: add diagonal motions with a cost of sqrt(2) to your A* implementation
@@ -114,7 +114,7 @@ Some of these steps are already implemented for you and some you need to modify 
    [![TODO_7_8](misc/TODO_7_8.PNG)]
        
        
-# 7.8: TODO 9:
+# 7.8: Send waypoints to simulator
    
    ## TODO (if you're feeling ambitious): Try a different approach altogether!
     
