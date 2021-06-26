@@ -79,12 +79,18 @@ Your planning algorithm is going to look something like the following:
 
 Some of these steps are already implemented for you and some you need to modify or implement yourself.  See the [rubric](https://review.udacity.com/#!/rubrics/1534/view) for specifics on what you need to modify or implement.
 
-7.1 TODO 1 & 2
-  # TODO: read lat0, lon0 from colliders into floating point values
+# 7.1 TODO 1 & 2
+  ## TODO: read lat0, lon0 from colliders into floating point values
 
-  # TODO: set home position to (lon0, lat0, 0)
+  ## TODO: set home position to (lon0, lat0, 0)
   
-  [![TODO1 &2 ](images/TODO_1_2.PNG)]
+  [![TODO1 &2 ](misc/TODO_1_2.PNG)]
+  
+# 7.2 TODO 2 & 3
+  ## TODO: retrieve current global position
+  ## TODO: convert to current local position using global_to_local()
+  
+  [![TODO1 &2 ](misc/TODO_3_4.PNG)]
 
 
 ### Step 8: Write it up!
