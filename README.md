@@ -106,14 +106,15 @@ Some of these steps are already implemented for you and some you need to modify 
        TODO: add diagonal motions with a cost of sqrt(2) to your A* implementation
        add diagonal motions with a cost of sqrt(2) to your A* implementation
        or move to a different search space such as a graph (not done here)
-              
-       [![TODO_7 ](misc/TODO_7_8.PNG)]
+       
+       [![TODO_7_8](misc/TODO_7_8.PNG)]
+       
        
 # 7.8: TODO 9:
       
         # TODO (if you're feeling ambitious): Try a different approach altogether!
         
-        [![TODO_9 ](misc/TODO_9.PNG)]          
+        [![TODO_9](misc/TODO_9.PNG)]          
               
 
 ### Step 8: Write it up!
