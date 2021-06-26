@@ -142,14 +142,14 @@ Some of these steps are already implemented for you and some you need to modify 
    
    In planing_utils.py , the details of the prune_path() function is given below
    
-   a - Obtain points p1 , p2 , p3
-   b - Set z coordinate 1 by the help of the point(p) function
-   c - Check collinearty of p1, p2, p3 by the help of the collinearity_check(p1, p2, p3) function
-       If those points are collinear , remove from pruned_path
-       If those point are not collinear , shift one point
-   d - Return pruned_path
+   ##### Step-1: Obtain points p1 , p2 , p3
+   ##### Step-2: Set z coordinate 1 by the help of the point(p) function
+   ##### Step-3: Check collinearty of p1, p2, p3 by the help of the collinearity_check(p1, p2, p3) function
+           In case those points are collinear , remove from pruned_path
+           And in case those point are not collinear , shift one point
+   ##### Step-4: Return pruned_path
    
-   #### [![TODO_11 ](misc/TODO_13.PNG)]
+   #### [![TODO_11 ](misc/TODO_12.PNG)]
        
 # 7.8: Convert path to waypoints and Send it to simulator
    
