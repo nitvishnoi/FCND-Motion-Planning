@@ -84,25 +84,26 @@ Some of these steps are already implemented for you and some you need to modify 
   ## TODO: read lat0, lon0 from colliders into floating point values
   ## TODO: set home position to (lon0, lat0, 0)
   
-  [![TODO1 &2 ](misc/TODO_1_2.PNG)]
+  #### [![TODO1 &2 ](misc/TODO_1_2.PNG)]
   
 # 7.2 Retrieve current global position and convert it to current local position
   ## TODO: retrieve current global position
   ## TODO: convert to current local position using global_to_local()
   
-  [![TODO3 &4 ](misc/TODO_3_4.PNG)]
+  #### [![TODO3 &4 ](misc/TODO_3_4.PNG)]
 
 # 7.3 Setting grid start position and add flexibility to start location
   ## TODO: convert start position to current position rather than map center
   
-  [![TODO_5 ](misc/TODO_5.PNG)]
+  #### [![TODO_5 ](misc/TODO_5.PNG)]
   
 # 7.5: Set goal as some arbitrary position on the grid
  
   ### TODO 6: adapt to set goal as latitude / longitude position and convert
 
    This step add flexibility to the desired goal location.Should be able to choose any (lat,lon) with in the map
-  [![TODO_6 ](misc/TODO_5.PNG)]
+  
+  #### [![TODO_6 ](misc/TODO_5.PNG)]
   
 # 7.6: Add Diagnol motions 
    
@@ -111,7 +112,7 @@ Some of these steps are already implemented for you and some you need to modify 
    ### add diagonal motions with a cost of sqrt(2) to your A* implementation
    ### or move to a different search space such as a graph (not done here)
        
-   [![TODO_7_8](misc/TODO_7_8.PNG)]
+   #### [![TODO_7_8](misc/TODO_7_8.PNG)]
    
    ## 7.6.1 . Modify A* to include diagonal motion (or replace A* altogether)
    #### planing_utils.py
@@ -119,12 +120,12 @@ Some of these steps are already implemented for you and some you need to modify 
    ##### 7.6.1.1
    Add Diagonal Motion Cost into Action class
    
-   [![TODO_10 ](misc/TODO_10.PNG)]
+   #### [![TODO_10 ](misc/TODO_10.PNG)]
    
    ##### 7.6.1.2
    Also Check Obstacle for Diagonal Motion
    
-   [![TODO_11 ](misc/TODO_11.PNG)]
+   #### [![TODO_11 ](misc/TODO_11.PNG)]
    
    ##### 7.6.1.3  : Cull waypoints - To eliminate unnecessary waypoints in path
    
@@ -136,7 +137,7 @@ Some of these steps are already implemented for you and some you need to modify 
    
    In motion_planning_sol.py, prune_path() function is used to eliminate unnecessary waypoints
    
-   [![TODO_11 ](misc/TODO_12.PNG)]
+   #### [![TODO_11 ](misc/TODO_13.PNG)]
    
    
    In planing_utils.py , the details of the prune_path() function is given below
@@ -147,6 +148,8 @@ Some of these steps are already implemented for you and some you need to modify 
        If those points are collinear , remove from pruned_path
        If those point are not collinear , shift one point
    d - Return pruned_path
+   
+   #### [![TODO_11 ](misc/TODO_13.PNG)]
        
 # 7.8: Convert path to waypoints and Send it to simulator
    
