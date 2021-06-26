@@ -123,7 +123,7 @@ Some of these steps are already implemented for you and some you need to modify 
 
 ## Project output video:
 
-[![FCND Motion Planning project output video](misc/output.PNG)](https://www.youtube.com/watch?v=PO2UXieuD10 "FCND Motion Planning project output video - Click to Watch!")
+[![FCND Motion Planning project output video](misc/Output.PNG)](https://www.youtube.com/watch?v=PO2UXieuD10 "FCND Motion Planning project output video - Click to Watch!")
 
 
 ### Step 9: Write it up!
