@@ -112,7 +112,41 @@ Some of these steps are already implemented for you and some you need to modify 
    ### or move to a different search space such as a graph (not done here)
        
    [![TODO_7_8](misc/TODO_7_8.PNG)]
-       
+   
+   ## 7.6.1 . Modify A* to include diagonal motion (or replace A* altogether)
+   #### planing_utils.py
+   
+   ##### 7.6.1.1
+   Add Diagonal Motion Cost into Action class
+   
+   [![TODO_10 ](misc/TODO_10.PNG)]
+   
+   ##### 7.6.1.2
+   Also Check Obstacle for Diagonal Motion
+   
+   [![TODO_11 ](misc/TODO_11.PNG)]
+   
+   ##### 7.6.1.3  : Cull waypoints - To eliminate unnecessary waypoints in path
+   
+   By the help of the Collinearty Check Method [Lecter_6], unnecessary waypoints in path is to eliminate. 
+   Breifly, three points p_1, p_2p,p_3 to be collinear, the determinant of the matrix that includes the coordinates 
+   of these three points as rows must be equal to zero in three dimension ( necessary but not sufficient) Detail. 
+   However in two dimension,z coordinate simply set to 1 and the determinant being equal to zero indicates that the area of the triangle is zero.
+   It is a sufficient condition for collinearity.
+   
+   In motion_planning_sol.py, prune_path() function is used to eliminate unnecessary waypoints
+   
+   [![TODO_11 ](misc/TODO_12.PNG)]
+   
+   
+   In planing_utils.py , the details of the prune_path() function is given below
+   
+   a - Obtain points p1 , p2 , p3
+   b - Set z coordinate 1 by the help of the point(p) function
+   c - Check collinearty of p1, p2, p3 by the help of the collinearity_check(p1, p2, p3) function
+       If those points are collinear , remove from pruned_path
+       If those point are not collinear , shift one point
+   d - Return pruned_path
        
 # 7.8: Convert path to waypoints and Send it to simulator
    
