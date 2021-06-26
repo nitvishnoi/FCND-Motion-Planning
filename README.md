@@ -114,7 +114,7 @@ Some of these steps are already implemented for you and some you need to modify 
    [![TODO_7_8](misc/TODO_7_8.PNG)]
        
        
-# 7.8: Send waypoints to simulator
+# 7.8: Convert path to waypoints and Send it to simulator
    
    ## TODO (if you're feeling ambitious): Try a different approach altogether!
     
