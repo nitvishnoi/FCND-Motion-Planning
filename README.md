@@ -86,12 +86,35 @@ Some of these steps are already implemented for you and some you need to modify 
   
   [![TODO1 &2 ](misc/TODO_1_2.PNG)]
   
-# 7.2 TODO 2 & 3
+# 7.2 TODO 3 & 4
   ## TODO: retrieve current global position
   ## TODO: convert to current local position using global_to_local()
   
-  [![TODO1 &2 ](misc/TODO_3_4.PNG)]
+  [![TODO3 &4 ](misc/TODO_3_4.PNG)]
 
+# 7.3 TODO 5:
+  ## TODO: convert start position to current position rather than map center
+  
+  [![TODO_5 ](misc/TODO_5.PNG)]
+  
+# 7.5: TODO 6: adapt to set goal as latitude / longitude position and convert
+
+  [![TODO_6 ](misc/TODO_5.PNG)]
+  
+# 7.6: TODO 7 & 8: 
+       Run A* to find a path from start to goal
+       TODO: add diagonal motions with a cost of sqrt(2) to your A* implementation
+       add diagonal motions with a cost of sqrt(2) to your A* implementation
+       or move to a different search space such as a graph (not done here)
+              
+       [![TODO_7 ](misc/TODO_7_8.PNG)]
+       
+# 7.8: TODO 9:
+      
+        # TODO (if you're feeling ambitious): Try a different approach altogether!
+        
+        [![TODO_9 ](misc/TODO_9.PNG)]          
+              
 
 ### Step 8: Write it up!
 When you're finished, complete a detailed writeup of your solution and discuss how you addressed each step. You can use the [`writeup_template.md`](./writeup_template.md) provided here or choose a different format, just be sure to describe clearly the steps you took and code you used to address each point in the [rubric](https://review.udacity.com/#!/rubrics/1534/view). And have fun!
